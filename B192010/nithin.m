@@ -1,0 +1,9 @@
+x1=input('enter the first sequence');
+l1=length(x1)
+n1=input('enter the starting index of x1');
+n2=n1:n1+l1-1;
+x2=input('enter the second sequence');
+l2=length(x2)
+n3=input('enter the index  of x2');
+n3=n3:n3+l2-1;
+[y,n]= 

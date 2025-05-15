@@ -1,0 +1,14 @@
+clc ;
+clear all;
+close all;
+n=input('enter the n value');
+fs=4000;
+ts=1/fs ;
+t=-n:ts:n;
+f=4;
+x=sin(2*pi*f*t);
+subplot(2,1,1);
+plot(t,x);
+y=sin(2*pi*f*t);
+subplot(2,1,2);
+plot(t,y);

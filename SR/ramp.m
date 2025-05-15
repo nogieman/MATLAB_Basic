@@ -1,0 +1,12 @@
+clc ;
+clear all;
+close all;
+n=input('enter the n value');
+t=0:0.5:n;
+a=2;
+b=5;
+y=a*t+b;
+plot(t,y);
+xlabel('Time in seconds');
+ylabel('AMPLLITUDE');
+title('UNIT RAMP');
